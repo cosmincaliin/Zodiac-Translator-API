@@ -26,23 +26,35 @@ Asegúrate de tener instalados los siguientes componentes:
 ### Instalación
 
 1. Clona el repositorio:
-   `git clone https://github.com/tu_usuario/laravel-zodiac-api.git`
+```bash
+git clone https://github.com/tu_usuario/laravel-zodiac-api.git
+```
 
 2. Navega al directorio del proyecto:
-   `cd laravel-zodiac-api`
+```bash
+cd laravel-zodiac-api
+```
 
-3. Instala las dependencias necesarias:
-   `composer install`
+4. Instala las dependencias necesarias:
+```bash
+composer install
+```
 
-4. Configura tu archivo `.env`:
-   `cp .env.example .env`
-   `php artisan key:generate`
+5. Configura tu archivo `.env`:
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-5. Configura la base de datos en tu archivo `.env` y migra las tablas necesarias:
-   `php artisan migrate`
+7. Configura la base de datos en tu archivo `.env` y migra las tablas necesarias:
+```bash
+php artisan migrate
+```
 
-6. Inicia el servidor de desarrollo:
-   `php artisan serve`
+9. Inicia el servidor de desarrollo:
+```bash
+php artisan serve
+```
 
 Ahora tu API debería estar ejecutándose en `http://localhost:8000`.
 
@@ -62,7 +74,9 @@ Para obtener la predicción de un signo del zodíaco en un idioma específico pa
 
 ### Ejemplo de Solicitud
 
-`GET /es/leo/2023-01-01`
+```bash
+GET /es/leo/2023-01-01
+```
 
 ### Respuesta Exitosa
 
@@ -89,13 +103,19 @@ Si no se encuentra la predicción para el signo y fecha especificados, recibirá
 Aquí hay algunos ejemplos de cómo puedes hacer solicitudes a la API:
 
 1. **Predicción en Español para Leo el 1 de enero de 2023**:
-   `GET /es/leo/2023-01-01`
+```bash
+GET /es/leo/2023-01-01
+```
 
-2. **Predicción en Inglés para Aries el 15 de febrero de 2023**:
-   ```GET /en/aries/2023-02-15`
+3. **Predicción en Inglés para Aries el 15 de febrero de 2023**:
+```bash
+GET /en/aries/2023-02-15
+```
 
-3. **Predicción en Chino para Cáncer el 10 de marzo de 2023**:
-   `GET /zh-CN/cancer/2023-03-10`
+4. **Predicción en Chino para Cáncer el 10 de marzo de 2023**:
+```bash
+GET /zh-CN/cancer/2023-03-10
+```
 
 ## Contribuciones
 
