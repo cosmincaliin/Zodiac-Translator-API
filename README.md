@@ -56,7 +56,7 @@ Para obtener la predicción de un signo del zodíaco en un idioma específico pa
 
 ### Parámetros
 
-- `idioma` El idioma en el que deseas obtener la predicción. Debe ser uno de los idiomas soportados (por ejemplo, ` es``para español,  `en` para inglés, etc.).
+- `idioma` El idioma en el que deseas obtener la predicción. Debe ser uno de los idiomas soportados (por ejemplo, `es`para español, `en` para inglés, etc.).
 - `signo`: El signo del zodíaco para el cual deseas obtener la predicción (por ejemplo, `leo`, `aries`, `cancer`, etc.).
 - `fecha`: La fecha para la cual deseas la predicción en formato `YYYY-MM-DD`.
 
