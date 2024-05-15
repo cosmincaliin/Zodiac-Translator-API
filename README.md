@@ -19,7 +19,7 @@ Para implementar esta API en tu entorno local, sigue los pasos a continuación:
 
 Asegúrate de tener instalados los siguientes componentes:
 
-- PHP >= 7.3
+- PHP >= 8.2
 - Composer
 - Laravel
 
