@@ -27,7 +27,7 @@ Asegúrate de tener instalados los siguientes componentes:
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu_usuario/laravel-zodiac-api.git
+git clone https://github.com/cosmincaliin/Zodiac-Translator-API.git
 ```
 
 2. Navega al directorio del proyecto:
